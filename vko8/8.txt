@@ -1,0 +1,7 @@
+1: Ajan saantiin voi käyttää ainankin kahta eri sisäänrakennettua kirjastoa "time" ja "datetime". Unix epochin saa käyttämällä "time.time()" tai "time.time_ns()" riippuen siitä halutaanko aika sekuntteina va nanosekuntteina. Muotoillun Ajan saa käyttämällä "time.strftime("%H:%M:%S")" tämä on mutoiltu näyttämään normaali kellonaika.
+
+2: Käytä "pathlib" ja "json" Kirjastoja käytetään "pathlib.Path.read_text" tiedoston lukemiseen ja "json.loads()" jsonin parsaamiseen
+
+3. "matplotlib" on tarkoitettu data visualisaatioon. https://matplotlib.org/stable/users/getting_started/
+
+4. Mikäli olet linuxilla ja haluat python paketteja on kolme vaihtoehtoa käyttämällä distron omaa pakettien hallintaa, pip globaalisti(Ei suositeltavaa voi rikkoa koko asennuksen) ja Python venv johon voidaan asentaa paketteja manuaalisesti tai pipillä
